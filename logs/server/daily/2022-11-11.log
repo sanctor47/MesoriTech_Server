@@ -1,0 +1,669 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:02:45.073Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:02:45.120Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 127
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/devices 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-10T22:03:49.506Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:04:36.025Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:04:36.067Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:07:51.911Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:07:52.024Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:09:45.783Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:09:45.822Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:10:12.100Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:10:12.124Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:10:31.123Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:10:31.154Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:16:54.274Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:16:54.298Z"}
+error: 
+    status - 500 
+    message - ReferenceError: FeildService is not defined
+    at _callee2$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:30:60)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllDevicesByDomain (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:30:36)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12) 
+    url - /api/v1/devices/domain/636ab0189f7d6709d4c9cb60 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-10T22:17:06.123Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:17:39.199Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:17:39.223Z"}
+error: 
+    status - 500 
+    message - ReferenceError: createdBy is not defined
+    at _callee3$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:23:49)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAllDevicesByCreatedBy (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:21:38)
+    at _callee4$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:71:38)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllDevicesByCreatedBy (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:69:39)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\types\json.js:110:7) 
+    url - /api/v1/devices/createdBy/636ab0189f7d6709d4c9cb5e 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-10T22:18:02.850Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:19:03.564Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:19:03.589Z"}
+error: 
+    status - 500 
+    message - ReferenceError: createdBy is not defined
+    at _callee3$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:23:49)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAllDevicesByCreatedBy (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:21:38)
+    at _callee4$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:71:38)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllDevicesByCreatedBy (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:69:39)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\types\json.js:110:7) 
+    url - /api/v1/devices/createdBy/636ab0189f7d6709d4c9cb5e 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-10T22:19:13.952Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:19:48.780Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:19:48.832Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:19:52.853Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:19:52.878Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:23:03.935Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:23:03.956Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:38:52.243Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:38:52.269Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:46:08.082Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:46:08.109Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:56:28.992Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:56:29.017Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:57:03.609Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:57:03.634Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T22:58:11.913Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T22:58:11.940Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to [ObjectId] failed for value "[{"name":"Air Temprature","unit":"C"}]" (type string) at path "sensors.0"
+    at model.Query.exec (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/devices/id/636d79eddf669343fc406eeb 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-10T22:59:23.744Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:00:05.220Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:00:05.247Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:02:51.569Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:02:51.600Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:03:38.526Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:03:38.554Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:03:44.532Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:03:44.553Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:04:23.353Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:04:23.391Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:06:40.338Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:06:40.381Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:10:13.522Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:10:13.555Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:11:00.369Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:11:00.395Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:12:03.208Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:12:03.230Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:12:40.128Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:12:40.160Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:12:51.662Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:12:51.689Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:13:26.075Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:13:26.103Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 125
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/devices/newReading/636d79eddf669343fc406eeb 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-10T23:14:28.846Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:16:23.460Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:16:23.486Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:18:14.896Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:18:14.926Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:18:30.640Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:18:30.670Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:19:19.329Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:19:19.355Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:23:25.483Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:23:25.523Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:39:17.165Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:39:17.199Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:40:43.610Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:40:43.633Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:40:57.058Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:40:57.110Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:41:04.403Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:41:04.427Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:41:18.119Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:41:18.147Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:42:05.896Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:42:05.922Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:44:59.167Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:44:59.192Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:45:23.764Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:45:23.785Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T23:46:54.221Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T23:46:54.244Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T13:31:40.103Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T13:31:40.138Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T13:33:04.713Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T13:33:04.742Z"}
+error: 
+    status - 500 
+    message - ValidationError: Device validation failed: feild: Cast to ObjectId failed for value "" (type string) at path "feild"
+    at model.Document.invalidate (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee5$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:52:30)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newDevice (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:42:23)
+    at _callee7$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:128:38)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newDevice (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:126:23)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/devices 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:33:22.729Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T13:43:55.630Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T13:43:55.660Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T13:44:30.847Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T13:44:30.871Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T13:44:40.446Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T13:44:40.467Z"}
+error: 
+    status - 500 
+    message - ReferenceError: addDeviceToFeild is not defined
+    at _callee5$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:57:14)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/devices 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:44:51.592Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T13:45:58.015Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T13:45:58.041Z"}
+error: 
+    status - 500 
+    message - ReferenceError: addDeviceToFeild is not defined
+    at _callee5$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:57:14)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/devices 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:46:08.642Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T13:46:33.046Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T13:46:33.078Z"}
+error: 
+    status - 500 
+    message - ValidationError: Device validation failed: feild: Cast to ObjectId failed for value "" (type string) at path "feild"
+    at model.Document.invalidate (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee5$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:57:30)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newDevice (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/device.service.js:43:23)
+    at _callee7$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:128:38)
+    at tryCatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:72:17)
+    at Generator._invoke (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:55:24)
+    at Generator.next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:97:21)
+    at asyncGeneratorStep (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newDevice (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\controllers\/device.controller.js:126:23)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/devices 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:46:40.506Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{
+  _id: {
+    devices: [],
+    alrams: [],
+    _id: 636d67b15fd7084c8c2011a1,
+    name: 'Test Feild 01',
+    domain: 636ab0189f7d6709d4c9cb60,
+    area: 27,
+    createdAt: 2022-11-10T21:05:53.037Z,
+    updatedAt: 2022-11-10T21:05:53.037Z,
+    __v: 0
+  }
+}" (type Object) at path "_id" for model "Feild"
+    at model.Query.exec (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/devices 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:51:45.763Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T13:53:03.319Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `devices.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/devices/createdBy/636ab0189f7d6709d4c9cb5e 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:53:16.861Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `feilds.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/devices 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:53:16.890Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `devices.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/devices/createdBy/636ab0189f7d6709d4c9cb5e 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:53:21.367Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `feilds.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/feilds/domain/636ab0189f7d6709d4c9cb60 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:53:21.392Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `devices.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/devices/createdBy/636ab0189f7d6709d4c9cb5e 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:53:21.410Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `feilds.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/feilds/domain/636ab0189f7d6709d4c9cb60 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:53:21.419Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:72:17)\n    at Generator._invoke (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:55:24)\n    at Generator.next (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:97:21)\n    at asyncGeneratorStep (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\src\\/index.js:32:9)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\asere\\Desktop\\Saturn\\MesoriTech\\mk01\\server\\node_modules\\@babel\\node\\src\\_babel-node.ts:215:12)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:17:47","timestamp":"2022-11-11T13:53:33.318Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `feilds.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/feilds/domain/636ab0189f7d6709d4c9cb60 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:53:55.368Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `feilds.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/feilds/domain/636ab0189f7d6709d4c9cb60 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:53:55.386Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:54:30.334Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T13:54:32.270Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T14:19:36.797Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T14:19:37.038Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{
+  _id: {
+    devices: [],
+    alrams: [],
+    _id: 636d67b15fd7084c8c2011a1,
+    name: 'Test Feild 01',
+    domain: 636ab0189f7d6709d4c9cb60,
+    area: 27,
+    createdAt: 2022-11-10T21:05:53.037Z,
+    updatedAt: 2022-11-10T21:05:53.037Z,
+    __v: 0
+  }
+}" (type Object) at path "_id" for model "Feild"
+    at model.Query.exec (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/devices 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-11T14:22:24.144Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T14:27:34.169Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T14:27:34.226Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T14:27:47.050Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T14:27:47.149Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T15:15:23.075Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T15:15:23.098Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T18:54:08.778Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:54:08.811Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T18:55:24.800Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:55:24.828Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T18:56:45.969Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:56:45.995Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T18:56:59.870Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:56:59.899Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T18:57:17.777Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T18:57:17.800Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T19:04:54.638Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T19:04:54.660Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T19:09:46.093Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T19:09:46.117Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T19:13:23.338Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T19:13:23.362Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T19:13:45.052Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T19:13:45.076Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T19:58:07.981Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T19:58:08.008Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:04:20.822Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:04:20.848Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:04:58.544Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:04:58.582Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:05:28.025Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:05:28.051Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:06:31.681Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:06:31.704Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:10:23.985Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:10:24.010Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:10:46.171Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:10:46.218Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:11:47.494Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:11:47.519Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:12:26.687Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:12:26.710Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:12:56.925Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:12:56.950Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:13:15.557Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:13:15.582Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:13:44.788Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:13:44.809Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:13:54.971Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:13:54.992Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:14:19.083Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:14:19.108Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:26:11.285Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:26:11.310Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:27:22.147Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:27:22.169Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:28:22.771Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:28:22.790Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:30:03.943Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:30:03.965Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-11T20:30:28.932Z"}
+info: Connected to the database. {"timestamp":"2022-11-11T20:30:28.953Z"}

@@ -1,0 +1,23 @@
+error: 
+      status - 404
+      message - User not found 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-11-10T20:59:53.920Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T21:04:29.695Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T21:04:29.745Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T21:14:58.191Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T21:14:58.227Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T21:16:11.705Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T21:16:11.741Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T21:16:41.257Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T21:16:41.286Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T21:20:43.389Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T21:20:43.420Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T21:48:43.608Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T21:48:43.678Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T21:56:50.542Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T21:56:50.573Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-10T21:58:37.542Z"}
+info: Connected to the database. {"timestamp":"2022-11-10T21:58:37.575Z"}

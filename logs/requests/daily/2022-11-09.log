@@ -1,0 +1,8 @@
+info: ::ffff:127.0.0.1 - - [09/Nov/2022:12:24:26 +0000] "GET /api/v1/plants HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2022:12:24:26 +0000] "GET /api/v1/plants HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2022:12:24:38 +0000] "GET /api/v1/plants/id/636a484c56184b1fc445afb0 HTTP/1.1" 200 628 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [09/Nov/2022:12:24:38 +0000] "GET /api/v1/plants/id/636a484c56184b1fc445afb0 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+

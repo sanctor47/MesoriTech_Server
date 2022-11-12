@@ -1,0 +1,62 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-02T19:02:24.589Z"}
+info: Connected to the database. {"timestamp":"2022-11-02T19:02:24.697Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 28
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/id/6362c15f33c1253b8c665c12 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-02T19:15:14.704Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token D in JSON at position 32
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/id/6362c15f33c1253b8c665c12 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-02T19:15:18.701Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-02T19:17:29.078Z"}
+info: Connected to the database. {"timestamp":"2022-11-02T19:17:29.119Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-02T19:18:09.882Z"}
+info: Connected to the database. {"timestamp":"2022-11-02T19:18:09.923Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "users" (type string) at path "_id" for model "Device"
+    at model.Query.exec (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/devices/users 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-02T19:27:11.751Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "users" (type string) at path "_id" for model "Device"
+    at model.Query.exec (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/devices/users 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-02T19:28:05.982Z"}

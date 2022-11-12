@@ -1,0 +1,313 @@
+###################____USER____###################
+### Get All Users
+GET http://127.0.0.1:5000/api/v1/users
+Content-Type: application/json
+
+### Get User by ID
+GET http://127.0.0.1:5000/api/v1/users/id/6362c15f33c1253b8c665c12
+Content-Type: application/json
+
+### POST New user
+POST http://127.0.0.1:5000/api/v1/users
+Content-Type: application/json
+
+{
+    "firstName":"Aser",
+    "lastName":"Nabil",
+    "email":"aser@gmail.com",
+    "phone":"010",
+    "password":"1010"
+}
+
+### PUT user update by Id
+PUT http://127.0.0.1:5000/api/v1/users/id/6362c15f33c1253b8c665c12
+Content-Type: application/json
+
+{
+    "firstName":"Aser"
+}
+
+### DELETE user by Id
+DELETE http://127.0.0.1:5000/api/v1/users/id/636aaf2c25c9424c6c939f5a
+
+### POST User Signup
+POST http://127.0.0.1:5000/api/v1/users/signup
+Content-Type: application/json
+
+{
+    "firstName":"Aser",
+    "lastName":"Nabil",
+    "email":"aser@gmail.com",
+    "phone":"010",
+    "password":"1010"
+}
+
+### POST User Login
+POST http://127.0.0.1:5000/api/v1/users/login
+Content-Type: application/json
+
+{
+    "email":"aser@gmail.com",
+    "password":"1010"
+}
+
+###################____Domains____###################
+### Get All domains
+GET http://127.0.0.1:5000/api/v1/domains
+Content-Type: application/json
+
+### Get domain by ID
+GET http://127.0.0.1:5000/api/v1/domains/id/636ab0189f7d6709d4c9cb60
+Content-Type: application/json
+
+### POST New domain
+POST http://127.0.0.1:5000/api/v1/domains
+Content-Type: application/json
+
+{
+    "firstName":"Aser",
+    "lastName":"Nabil",
+    "email":"aser@gmail.com",
+    "phone":"010",
+    "password":"1010"
+}
+
+### PUT domain update by Id
+PUT http://127.0.0.1:5000/api/v1/domains/id/6362c15f33c1253b8c665c12
+Content-Type: application/json
+
+{
+    "firstName":"Aser"
+}
+
+### DELETE domain by Id
+DELETE http://127.0.0.1:5000/api/v1/domains/id/636aaf2c25c9424c6c939f5c
+
+
+
+###################____Plants____###################
+### Get All plants
+GET http://127.0.0.1:5000/api/v1/plants
+Content-Type: application/json
+
+### Get domain by ID
+GET http://127.0.0.1:5000/api/v1/plants/id/6362c15f33c1253b8c665c12
+Content-Type: application/json
+
+### POST New domain
+POST http://127.0.0.1:5000/api/v1/plants
+Content-Type: application/json
+
+{
+ "name": "Potato",
+    "type": "vegetable ",
+    "imgURL": "https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP.jpg",
+    "airParams": {
+      "params": {
+        "minTemp": 20,
+        "maxTemp": 29,
+        "minHum": 45,
+        "maxHum": 65
+      }
+    },
+    "soilParams": {
+      "type": "loam",
+      "minOrganicMatter": 2,
+      "params": {
+        "minPh": 6.0,
+        "maxPh": 6.5,
+        "optimalEC": 1.5
+      }
+    },
+    "water": {
+      "params": {
+        "minPh": 6.5,
+        "maxPh": 8.5,
+        "maxECw": 1,
+        "maxTDS": 450,
+        "maxSAR": 30,
+        "maxChloride": 130,
+        "maxBoron": 0.7,
+        "maxNitrate": 5,
+        "maxBicarbonate": 1.5
+      }
+    }
+}
+
+### PUT plant update by Id
+PUT http://127.0.0.1:5000/api/v1/plants/id/636a484c56184b1fc445afb0
+Content-Type: application/json
+
+{
+    "imgURL":"https://www.haifa-group.com/sites/default/files/crop/Strawberry-Thumb_03.JPG"
+}
+
+### DELETE plant by Id
+DELETE http://127.0.0.1:5000/api/v1/plants/id/6362c15f33c1253b8c665c12
+
+###################____Feilds____###################
+### Get All feilds
+GET http://127.0.0.1:5000/api/v1/feilds
+Content-Type: application/json
+
+### Get All feilds by Domain
+GET http://127.0.0.1:5000/api/v1/feilds/domain/636ab0189f7d6709d4c9cb60
+Content-Type: application/json
+
+### Get Feild by ID
+GET http://127.0.0.1:5000/api/v1/feilds/id/6362c15f33c1253b8c665c12
+Content-Type: application/json
+
+### POST New Feild
+POST http://127.0.0.1:5000/api/v1/feilds
+Content-Type: application/json
+
+{
+  "name": "Test Feild 02",
+  "domain": "636ab0189f7d6709d4c9cb60",
+  "area": 100
+}
+
+### PUT Feild update by Id
+PUT http://127.0.0.1:5000/api/v1/feilds/id/636a484c56184b1fc445afb0
+Content-Type: application/json
+
+{
+    "name":""
+}
+
+### DELETE Feild by Id
+DELETE http://127.0.0.1:5000/api/v1/feilds/id/6362c15f33c1253b8c665c12
+
+
+
+###################____Devices____###################
+### Get All devices
+GET http://127.0.0.1:5000/api/v1/devices
+Content-Type: application/json
+
+### Get All devices by Domain
+GET http://127.0.0.1:5000/api/v1/devices/domain/636ab0189f7d6709d4c9cb60
+Content-Type: application/json
+
+### Get All devices by Creator
+GET http://127.0.0.1:5000/api/v1/devices/createdBy/636ab0189f7d6709d4c9cb5e
+Content-Type: application/json
+
+### Get All devices by feild
+GET http://127.0.0.1:5000/api/v1/devices/feild/636ab0189f7d6709d4c9cb60
+Content-Type: application/json
+
+### Get Device by ID
+GET http://127.0.0.1:5000/api/v1/devices/id/6362c15f33c1253b8c665c12
+Content-Type: application/json
+
+### POST New Device
+POST http://127.0.0.1:5000/api/v1/devices
+Content-Type: application/json
+
+{
+  "name": "Sim-Sensor 01",
+  "label": "Simulator Test Device - No Heartbeat",
+  "createdBy": "636ab0189f7d6709d4c9cb5e"
+}
+
+### PUT Device update by Id
+PUT http://127.0.0.1:5000/api/v1/devices/id/636a484c56184b1fc445afb0
+Content-Type: application/json
+
+{
+    "name":""
+}
+
+### DELETE Device by Id
+DELETE http://127.0.0.1:5000/api/v1/devices/id/636e4ecf7eb81a499035f651
+
+### PUT Device update by Id
+PUT http://127.0.0.1:5000/api/v1/devices/id/637000d923908144c0339559
+Content-Type: application/json
+
+{
+    "sensors":[
+      {
+        "name":"Air Temprature",
+        "unit":"C"
+      }
+    ]
+}
+
+### PUT Device update by Id
+PUT http://127.0.0.1:5000/api/v1/devices/id/637000d923908144c0339559
+Content-Type: application/json
+
+{
+    "active": true,
+    "sensors":[
+      {
+        "name":"Air Humidity",
+        "unit":"RH"
+      },
+            {
+        "name":"Air Temprature",
+        "unit":"C"
+      },
+            {
+        "name":"Soil Temprature",
+        "unit":"C"
+      },
+      
+            {
+        "name":"Soil Moiture",
+        "unit":"%"
+      }
+    ]
+}
+
+### POST Device Reading
+POST http://127.0.0.1:5000/api/v1/devices/newReading/636fff7623908144c03393d5
+Content-Type: application/json
+
+{
+   "timeStamp": "3294921",
+  "data":[
+    {
+      "name":"Air Temprature",
+      "unit":"C",
+      "value": 26.3
+    },
+        {
+      "name":"Air Humidity",
+      "unit":"RH",
+      "value": 45
+    }
+    ,
+            {
+        "name":"Soil Temprature",
+        "unit":"C",
+      "value": 32.2
+
+      },
+      
+            {
+        "name":"Soil Moiture",
+        "unit":"%",
+      "value": 30
+
+      }
+  ]
+}
+
+### 
+GET http://127.0.0.1:5000/api/v1/readings
+
+###
+GET http://127.0.0.1:5000/api/v1/devices/latestReading/636d79eddf669343fc406eeb?sensor=Air Humidity
+
+###
+DELETE http://127.0.0.1:5000/api/v1/readings/636e5ee78d94731810cb788c
+
+###
+GET http://127.0.0.1:5000/api/v1/readings/testparams/636e5ee78d94731810cb788c?sensor=Air Temprature&sensor=Air Humidity
+
+###
+GET http://127.0.0.1:5000/api/v1/readings/linechart/636d79eddf669343fc406eeb?sensor=Air Humidity
