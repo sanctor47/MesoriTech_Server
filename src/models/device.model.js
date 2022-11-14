@@ -12,6 +12,10 @@ const deviceSchema = new Schema(
       name: { type: String },
       unit: { type: String },
     }],
+    location: {
+      lat: { type: Number },
+      lon: { type: Number },
+    },
     createdBy: { type: Schema.Types.ObjectId, ref: "User" },
     feild: { type: Schema.Types.ObjectId, ref: "Feild" },
     domain: { type: Schema.Types.ObjectId, ref: "Domain" },

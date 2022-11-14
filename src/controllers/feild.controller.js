@@ -114,3 +114,23 @@ export const deleteFeild = async (req, res, next) => {
     next(error);
   }
 };
+
+
+/**
+ * Controller to delete a feild
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const RemoveDeviceFromFeild = async (req, res, next) => {
+  try {
+    await FeildService.RemoveDeviceFromFeild(req.params._id, req.query.deviceId);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: [],
+      message: 'Feild deleted successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};

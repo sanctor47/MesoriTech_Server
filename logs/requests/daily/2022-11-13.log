@@ -1,0 +1,134 @@
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:22:24 +0000] "GET /api/v1/test HTTP/1.1" 404 47 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:22:48 +0000] "POST /api/v1/test HTTP/1.1" 200 9 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:23:17 +0000] "POST /api/v1/test HTTP/1.1" 200 9 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:24:24 +0000] "PUT /api/v1/test HTTP/1.1" 200 9 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:25:42 +0000] "GET /api/v1/feilds HTTP/1.1" 200 579 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:26 +0000] "GET /api/v1/feilds/domain/63700b38250b981ab315dce4 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:26 +0000] "GET /api/v1/feilds/domain/63700b38250b981ab315dce4 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:26 +0000] "GET /api/v1/devices/createdBy/63700b38250b981ab315dce2 HTTP/1.1" 200 66 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:26 +0000] "GET /api/v1/devices/createdBy/63700b38250b981ab315dce2 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:32 +0000] "GET /api/v1/plants HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:32 +0000] "GET /api/v1/plants HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:32 +0000] "GET /api/v1/feilds/domain/63700b38250b981ab315dce4 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:32 +0000] "GET /api/v1/feilds/domain/63700b38250b981ab315dce4 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:33 +0000] "GET /api/v1/devices/createdBy/63700b38250b981ab315dce2 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:33 +0000] "GET /api/v1/feilds/domain/63700b38250b981ab315dce4 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:33 +0000] "GET /api/v1/devices/createdBy/63700b38250b981ab315dce2 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:30:33 +0000] "GET /api/v1/feilds/domain/63700b38250b981ab315dce4 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:14 +0000] "POST /api/v1/users/login HTTP/1.1" 201 620 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:15 +0000] "GET /api/v1/devices/createdBy/636ffd875e729d32444c0e16 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:15 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:15 +0000] "GET /api/v1/devices/createdBy/636ffd875e729d32444c0e16 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:15 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:29 +0000] "POST /api/v1/devices HTTP/1.1" 500 81 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:29 +0000] "GET /api/v1/devices/createdBy/636ffd875e729d32444c0e16 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:30 +0000] "GET /api/v1/plants HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:30 +0000] "GET /api/v1/plants HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:31 +0000] "GET /api/v1/devices/createdBy/636ffd875e729d32444c0e16 HTTP/1.1" 200 1025 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:31 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:31 +0000] "GET /api/v1/devices/createdBy/636ffd875e729d32444c0e16 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:31 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:43 +0000] "GET /api/v1/devices/id/63702cd1180a3328a0329220 HTTP/1.1" 200 398 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:31:43 +0000] "GET /api/v1/devices/id/63702cd1180a3328a0329220 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:13 +0000] "GET /api/v1/devices/createdBy/636ffd875e729d32444c0e16 HTTP/1.1" 200 1025 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:13 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 200 513 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:13 +0000] "GET /api/v1/devices/createdBy/636ffd875e729d32444c0e16 HTTP/1.1" 200 1025 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:13 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 200 513 "http://localhost:3000/" "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:25 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:25 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:26 +0000] "GET /api/v1/devices/id/636ffe115e729d32444c0e2f HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:26 +0000] "GET /api/v1/devices/id/636ffe115e729d32444c0e2f HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:31 +0000] "GET /api/v1/devices/createdBy/636ffd875e729d32444c0e16 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:31 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:31 +0000] "GET /api/v1/devices/createdBy/636ffd875e729d32444c0e16 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:32:31 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:34:57 +0000] "GET /api/v1/devices/id/636ffe115e729d32444c0e2f HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:34:57 +0000] "GET /api/v1/devices/id/636ffe115e729d32444c0e2f HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:34:57 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [12/Nov/2022:23:34:57 +0000] "GET /api/v1/feilds/domain/636ffd875e729d32444c0e18 HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:25:23 +0000] "GET /api/v1/feilds HTTP/1.1" 200 579 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:36:32 +0000] "GET /api/v1/feilds HTTP/1.1" 200 579 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:38:19 +0000] "GET /api/v1/feilds/id/6362c15f33c1253b8c665c12 HTTP/1.1" 200 63 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:38:25 +0000] "GET /api/v1/feilds HTTP/1.1" 200 579 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:38:51 +0000] "PUT /api/v1/feilds/rmDevice/id/636ffde95e729d32444c0e1f?deviceId=636ffe115e729d32444c0e2f HTTP/1.1" 404 47 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:39:25 +0000] "PUT /api/v1/feilds/rmDevice/id/636ffde95e729d32444c0e1f?deviceId=636ffe115e729d32444c0e2f HTTP/1.1" 404 47 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:40:31 +0000] "PUT /api/v1/feilds/rmDevice/636ffde95e729d32444c0e1f?deviceId=636ffe115e729d32444c0e2f HTTP/1.1" 200 61 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:40:35 +0000] "GET /api/v1/feilds HTTP/1.1" 200 553 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:48:40 +0000] "GET /api/v1/feilds HTTP/1.1" 200 553 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:49:15 +0000] "GET /api/v1/devices/domain/636ab0189f7d6709d4c9cb60 HTTP/1.1" 200 66 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:49:25 +0000] "GET /api/v1/feilds HTTP/1.1" 200 553 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:50:41 +0000] "GET /api/v1/devices HTTP/1.1" 200 2161 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:53:18 +0000] "PUT /api/v1/devices/id/636fff7623908144c03393d5 HTTP/1.1" 202 736 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:56:44 +0000] "PUT /api/v1/devices/id/636fff7623908144c03393d5 HTTP/1.1" 500 159 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:57:44 +0000] "PUT /api/v1/devices/id/636fff7623908144c03393d5 HTTP/1.1" 202 736 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:57:54 +0000] "PUT /api/v1/devices/id/636fff7623908144c03393d5 HTTP/1.1" 202 728 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:58:50 +0000] "PUT /api/v1/devices/id/636fff7623908144c03393d5 HTTP/1.1" 500 159 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:59:25 +0000] "PUT /api/v1/devices/id/636fff7623908144c03393d5 HTTP/1.1" 202 728 "-" "vscode-restclient"
+
+info: ::ffff:127.0.0.1 - - [13/Nov/2022:16:59:33 +0000] "GET /api/v1/feilds HTTP/1.1" 200 552 "-" "vscode-restclient"
+

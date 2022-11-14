@@ -1,0 +1,71 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-13T23:02:21.164Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T23:02:21.227Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 69
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:199:9)
+    at invokeCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/devices/id/636fff7623908144c03393d5 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-13T23:06:56.628Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-13T23:29:58.108Z"}
+info: Connected to the database. {"timestamp":"2022-11-13T23:29:58.148Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Device"
+    at model.Query.exec (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/devices/id/[object%20Object] 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-13T23:30:03.177Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "[object Object]" (type string) at path "_id" for model "Device"
+    at model.Query.exec (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/devices/id/[object%20Object] 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-13T23:30:03.186Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-14T11:25:05.372Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T11:25:05.404Z"}
+error: 
+    status - 500 
+    message - ValidationError: Feild validation failed: area: Cast to Number failed for value "Test 01" (type string) at path "area"
+    at model.Document.invalidate (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee3$ (C:\Users\asere\Desktop\Saturn\MesoriTech\mk01\server\src\services\/feild.service.js:22:30) 
+    url - /api/v1/feilds 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-11-14T12:41:44.936Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-14T12:46:20.781Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T12:46:20.811Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-11-14T18:40:40.412Z"}
+info: Connected to the database. {"timestamp":"2022-11-14T18:40:40.446Z"}

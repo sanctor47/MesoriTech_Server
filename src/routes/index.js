@@ -1,6 +1,7 @@
 import express from 'express';
 const router = express.Router();
 
+import dashboardRoute from './dashboard.route';
 import soilRoute from './soil.route';
 import plantRoute from './plant.route';
 import bedRoute from './bed.route';
@@ -19,8 +20,16 @@ const routes = () => {
   router.get('/', (req, res) => {
     res.json('Welcome');
   });
-  router.use('/users', userRoute);
 
+
+
+  router.put('/test', (req, res) => {
+    console.log("Body: ", req.body)
+    
+    res.json('Welcome');
+  });
+
+  router.use('/users', userRoute);
   router.use('/devices', deviceRoute);
   router.use('/sensors', sensorRoute);
   router.use('/readings', readingRoute);
@@ -29,6 +38,7 @@ const routes = () => {
   router.use('/beds', bedRoute);
   router.use('/plants', plantRoute);
   router.use('/soils', soilRoute);
+  router.use('/dashboard', dashboardRoute);
   return router;
 };
 

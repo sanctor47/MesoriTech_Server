@@ -95,13 +95,13 @@ GET http://127.0.0.1:5000/api/v1/plants/id/6362c15f33c1253b8c665c12
 Content-Type: application/json
 
 ### POST New domain
-POST http://127.0.0.1:5000/api/v1/plants
+POST http://3.75.214.66:5000/api/v1/plants
 Content-Type: application/json
 
 {
- "name": "Potato",
-    "type": "vegetable ",
-    "imgURL": "https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP.jpg",
+ "name": "Strawberry",
+    "type": "Fruit ",
+    "imgURL": "https://www.macmillandictionary.com/external/slideshow/full/160279_full.jpg",
     "airParams": {
       "params": {
         "minTemp": 20,
@@ -176,6 +176,12 @@ Content-Type: application/json
     "name":""
 }
 
+
+### PUT Remove Device from feild
+PUT http://127.0.0.1:5000/api/v1/feilds/rmDevice/636ffde95e729d32444c0e1f?deviceId=636ffe115e729d32444c0e2f
+Content-Type: application/json
+
+
 ### DELETE Feild by Id
 DELETE http://127.0.0.1:5000/api/v1/feilds/id/6362c15f33c1253b8c665c12
 
@@ -213,11 +219,14 @@ Content-Type: application/json
 }
 
 ### PUT Device update by Id
-PUT http://127.0.0.1:5000/api/v1/devices/id/636a484c56184b1fc445afb0
+PUT http://127.0.0.1:5000/api/v1/devices/id/636fff7623908144c03393d5
 Content-Type: application/json
 
 {
-    "name":""
+"location": {
+      "lat": 30.06845,
+      "lon":31.01959
+    }
 }
 
 ### DELETE Device by Id
@@ -237,7 +246,7 @@ Content-Type: application/json
 }
 
 ### PUT Device update by Id
-PUT http://127.0.0.1:5000/api/v1/devices/id/637000d923908144c0339559
+PUT http://3.75.214.66:5000/api/v1/devices/id/637012dc0609b11affa84faa
 Content-Type: application/json
 
 {
@@ -264,7 +273,7 @@ Content-Type: application/json
 }
 
 ### POST Device Reading
-POST http://127.0.0.1:5000/api/v1/devices/newReading/636fff7623908144c03393d5
+POST http://3.75.214.66:5000/api/v1/devices/newReading/637012dc0609b11affa84faa
 Content-Type: application/json
 
 {
@@ -273,25 +282,25 @@ Content-Type: application/json
     {
       "name":"Air Temprature",
       "unit":"C",
-      "value": 26.3
+      "value": 32.3
     },
         {
       "name":"Air Humidity",
       "unit":"RH",
-      "value": 45
+      "value": 65
     }
     ,
             {
         "name":"Soil Temprature",
         "unit":"C",
-      "value": 32.2
+      "value": 36.2
 
       },
       
             {
         "name":"Soil Moiture",
         "unit":"%",
-      "value": 30
+      "value": 60
 
       }
   ]
@@ -311,3 +320,13 @@ GET http://127.0.0.1:5000/api/v1/readings/testparams/636e5ee78d94731810cb788c?se
 
 ###
 GET http://127.0.0.1:5000/api/v1/readings/linechart/636d79eddf669343fc406eeb?sensor=Air Humidity
+
+###
+PUT http://127.0.0.1:5000/api/v1/test
+Content-Type: application/json
+
+{
+  "name":"Test Field 01",
+  "label": null,
+  "feild": null
+}

@@ -1,7 +1,7 @@
 import Device from '../models/device.model';
 import Reading from '../models/reading.model';
 import { v4 as uuidv4 } from 'uuid';
-import { addDeviceToFeild, getFeild } from './feild.service';
+import { addDeviceToFeild, ChangeDeviceFeild, getFeild } from './feild.service';
 
 //get all devices
 export const getAllDevices = async () => {
@@ -115,16 +115,25 @@ export const getLatestReadign = async (_id, name) => {
 
 //update single device
 export const updateDevice = async (_id, body) => {
-  const data = await Device.findByIdAndUpdate(
-    {
-      _id
-    },
-    body,
-    {
-      new: true
-    }
-  );
-  return data;
+  console.log("Device Update: ", body)
+  console.log("Device id: ", _id)
+  // const data = await Device.findByIdAndUpdate(
+  //   {
+  //     _id
+  //   },
+  //   body,
+  //   {
+  //     new: true
+  //   }
+  // );
+  const device = await Device.findById(_id)
+  console.log("Target device: ", device)
+  if (body.feild && body.feild !== null) {
+    await ChangeDeviceFeild(device.feild, body.feild, _id)
+  }
+  await device.update(body);
+  await device.save();
+  return device;
 };
 
 //delete single device
