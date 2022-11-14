@@ -318,21 +318,42 @@ var getLatestReadign = /*#__PURE__*/function () {
 exports.getLatestReadign = getLatestReadign;
 var updateDevice = /*#__PURE__*/function () {
   var _ref9 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee9(_id, body) {
-    var data;
+    var device;
     return _regenerator["default"].wrap(function _callee9$(_context9) {
       while (1) {
         switch (_context9.prev = _context9.next) {
           case 0:
-            _context9.next = 2;
-            return _device["default"].findByIdAndUpdate({
-              _id: _id
-            }, body, {
-              "new": true
-            });
-          case 2:
-            data = _context9.sent;
-            return _context9.abrupt("return", data);
+            console.log("Device Update: ", body);
+            console.log("Device id: ", _id);
+            // const data = await Device.findByIdAndUpdate(
+            //   {
+            //     _id
+            //   },
+            //   body,
+            //   {
+            //     new: true
+            //   }
+            // );
+            _context9.next = 4;
+            return _device["default"].findById(_id);
           case 4:
+            device = _context9.sent;
+            console.log("Target device: ", device);
+            if (!(body.feild && body.feild !== null)) {
+              _context9.next = 9;
+              break;
+            }
+            _context9.next = 9;
+            return (0, _feild.ChangeDeviceFeild)(device.feild, body.feild, _id);
+          case 9:
+            _context9.next = 11;
+            return device.update(body);
+          case 11:
+            _context9.next = 13;
+            return device.save();
+          case 13:
+            return _context9.abrupt("return", device);
+          case 14:
           case "end":
             return _context9.stop();
         }

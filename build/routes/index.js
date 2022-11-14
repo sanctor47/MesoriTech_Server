@@ -6,6 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 var _express = _interopRequireDefault(require("express"));
+var _dashboard = _interopRequireDefault(require("./dashboard.route"));
 var _soil = _interopRequireDefault(require("./soil.route"));
 var _plant = _interopRequireDefault(require("./plant.route"));
 var _bed = _interopRequireDefault(require("./bed.route"));
@@ -25,6 +26,10 @@ var routes = function routes() {
   router.get('/', function (req, res) {
     res.json('Welcome');
   });
+  router.put('/test', function (req, res) {
+    console.log("Body: ", req.body);
+    res.json('Welcome');
+  });
   router.use('/users', _user["default"]);
   router.use('/devices', _device["default"]);
   router.use('/sensors', _sensor["default"]);
@@ -34,6 +39,7 @@ var routes = function routes() {
   router.use('/beds', _bed["default"]);
   router.use('/plants', _plant["default"]);
   router.use('/soils', _soil["default"]);
+  router.use('/dashboard', _dashboard["default"]);
   return router;
 };
 var _default = routes;

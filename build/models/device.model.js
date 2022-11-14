@@ -33,6 +33,14 @@ var deviceSchema = new _mongoose.Schema({
       type: String
     }
   }],
+  location: {
+    lat: {
+      type: Number
+    },
+    lon: {
+      type: Number
+    }
+  },
   createdBy: {
     type: _mongoose.Schema.Types.ObjectId,
     ref: "User"

@@ -4,7 +4,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.updateFeild = exports.newFeild = exports.getFeild = exports.getAllFeildsByDomain = exports.getAllFeilds = exports.deleteFeild = exports.addDeviceToFeild = void 0;
+exports.updateFeild = exports.newFeild = exports.getFeild = exports.getAllFeildsByDomain = exports.getAllFeilds = exports.deleteFeild = exports.addDeviceToFeild = exports.RemoveDeviceFromFeild = exports.ChangeDeviceFeild = void 0;
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 var _asyncToGenerator2 = _interopRequireDefault(require("@babel/runtime/helpers/asyncToGenerator"));
 var _feild = _interopRequireDefault(require("../models/feild.model"));
@@ -46,7 +46,7 @@ var getAllFeildsByDomain = /*#__PURE__*/function () {
             _context2.next = 3;
             return _feild["default"].find({
               domain: domain
-            }).populate("domain");
+            }).populate("domain").populate("devices");
           case 3:
             data = _context2.sent;
             return _context2.abrupt("return", data);
@@ -161,7 +161,7 @@ var getFeild = /*#__PURE__*/function () {
         switch (_context6.prev = _context6.next) {
           case 0:
             _context6.next = 2;
-            return _feild["default"].findById(id);
+            return _feild["default"].findById(id).populate("domain").populate("devices");
           case 2:
             data = _context6.sent;
             return _context6.abrupt("return", data);
@@ -211,4 +211,86 @@ var addDeviceToFeild = /*#__PURE__*/function () {
     return _ref7.apply(this, arguments);
   };
 }();
+
+//update single feild
 exports.addDeviceToFeild = addDeviceToFeild;
+var RemoveDeviceFromFeild = /*#__PURE__*/function () {
+  var _ref8 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee8(_id, deviceId) {
+    var data;
+    return _regenerator["default"].wrap(function _callee8$(_context8) {
+      while (1) {
+        switch (_context8.prev = _context8.next) {
+          case 0:
+            console.log("adding device ".concat(deviceId, " to feild ").concat(_id));
+            _context8.next = 3;
+            return _feild["default"].findByIdAndUpdate({
+              _id: _id
+            }, {
+              $pull: {
+                devices: deviceId
+              }
+            }, {
+              "new": true
+            });
+          case 3:
+            data = _context8.sent;
+            return _context8.abrupt("return", data);
+          case 5:
+          case "end":
+            return _context8.stop();
+        }
+      }
+    }, _callee8);
+  }));
+  return function RemoveDeviceFromFeild(_x9, _x10) {
+    return _ref8.apply(this, arguments);
+  };
+}();
+
+//update single feild
+exports.RemoveDeviceFromFeild = RemoveDeviceFromFeild;
+var ChangeDeviceFeild = /*#__PURE__*/function () {
+  var _ref9 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee9(fromId, toId, deviceId) {
+    var Target, Destination;
+    return _regenerator["default"].wrap(function _callee9$(_context9) {
+      while (1) {
+        switch (_context9.prev = _context9.next) {
+          case 0:
+            console.log("changing device ".concat(deviceId, " from feild: ").concat(fromId, "to feild ").concat(toId));
+            _context9.next = 3;
+            return _feild["default"].findByIdAndUpdate({
+              _id: fromId
+            }, {
+              $pull: {
+                devices: deviceId
+              }
+            }, {
+              "new": true
+            });
+          case 3:
+            Target = _context9.sent;
+            _context9.next = 6;
+            return _feild["default"].findByIdAndUpdate({
+              _id: toId
+            }, {
+              $push: {
+                devices: deviceId
+              }
+            }, {
+              "new": true
+            });
+          case 6:
+            Destination = _context9.sent;
+            return _context9.abrupt("return", Destination);
+          case 8:
+          case "end":
+            return _context9.stop();
+        }
+      }
+    }, _callee9);
+  }));
+  return function ChangeDeviceFeild(_x11, _x12, _x13) {
+    return _ref9.apply(this, arguments);
+  };
+}();
+exports.ChangeDeviceFeild = ChangeDeviceFeild;

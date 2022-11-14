@@ -7,28 +7,27 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 var _express = _interopRequireDefault(require("express"));
-var feildController = _interopRequireWildcard(require("../controllers/feild.controller"));
+var dashboardController = _interopRequireWildcard(require("../controllers/dashboard.controller"));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 var router = _express["default"].Router();
 
-//route to get all feilds
-router.get('', feildController.getAllFeilds);
+//route to get all dashboards
+router.get('', dashboardController.getAllDashboards);
 
-//route to get all feilds by Domain
-router.get('/domain/:id', feildController.getAllFeildsByDomain);
-router.put('/rmDevice/:_id', feildController.RemoveDeviceFromFeild);
-//route to create a new feild
-router.post('', feildController.newFeild);
+//route to create a new dashboard
+router.post('', dashboardController.newDashboard);
 
-//route to get a single feild by their feild id
-router.get('/id/:_id', feildController.getFeild);
+//route to get a single dashboard by feild Id
+router.get('/feild/:_id', dashboardController.getDashboard);
 
-//route to update a single feild by their feild id
-router.put('/id/:_id', feildController.updateFeild);
-//
+//route to get a single dashboard by their dashboard id
+router.get('/id/:_id', dashboardController.getDashboardByFeild);
 
-//route to delete a single feild by their feild id
-router["delete"]('/id/:_id', feildController.deleteFeild);
+//route to update a single dashboard by their dashboard id
+router.put('/id/:_id', dashboardController.updateDashboard);
+
+//route to delete a single dashboard by their dashboard id
+router["delete"]('/id/:_id', dashboardController.deleteDashboard);
 var _default = router;
 exports["default"] = _default;
